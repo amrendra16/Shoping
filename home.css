@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+.nav{
+    display: inline;
+    background-color:ghostwhite;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    height: 60px;
+    
+}
+.nav ul{
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.nav ul li input{
+    padding-left: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.nav ul li button{
+    margin-left: 10px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    font-size: 20px; 
+    padding: 10px;  
+
+}
+.nav ul li a:hover{
+    color: blue;
+    font-weight: bold;
+    background: red;
+    border-radius: 5px;
+}
+.nav ul li a button{
+    
+    border-radius: 0px;
+    border: none;background: none;
+
+    
+}
+
+.p1{
+    font-size: 45px;
+    font-weight: bold;
+    color: blue;
+}
+
+.headsection{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.kid12 img{
+    height: 70px;
+    width: 90px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+    transition: 1s;
+}
+.kid12:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    
+}
+.kid-t{
+    padding-top: 16px;
+    font-size: 15px;
+    text-align: center;
+}
+.headsection a{
+    text-decoration: none;
+    color: black;
+}
+.headsection a:hover{
+    color: rebeccapurple;
+    font-weight: bold;
+}
+#slide{
+    height: 80vh;
+   
+    
+}
+.best{
+    background-color:aliceblue;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+}
+.best-h h2{
+    float: left;
+    margin-left: 70px;
+}
+.best-h p{
+   
+    font-size: 20px;
+    margin-left: 90px;
+}
+.best-btn a button{
+    padding: 8px;
+    font-size: 20px;
+    padding-left: 15px;
+    color: black;
+     
+    float: right;
+    border-radius: 5px;
+    background: rgb(39, 125, 253);
+    
+
+}
+.best-btn a button:hover{
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+.topselling{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.topoffer2 img{
+    margin-top: 13px;
+    height: 300px;
+    width: 300px;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.topoffer2 img:hover{
+    transform: scale(1.07);
+
+}
+
+.topoffer a {
+    text-decoration: none;
+}
+
+.namep a{
+    color: black;
+    font-size: 20px;
+}
+.amount{
+    font-size: 25px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.realamount{
+    font-size: 18px;
+    text-decoration:line-through;
+    color: #878787;
+    padding-top: 5px;
+}
+.discount{
+    padding-left: 10px;
+    padding-top: 6px;
+    color: green;
+    font-size:15px
+}
+.topoffert{
+    padding-top: 15px;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+.footer-s{
+    display: flex;
+   padding-left:20px;
+background: rgb(175, 175, 224);
+}
+.f{
+    padding: 50px;
+    padding-bottom: 20px;
+    
+}
+.ft{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+ footer ul li {
+  
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    line-height: 30px;
+    
+}
+footer ul li a{
+    color: white;
+}
+
+.vl {
+    border-left: 3px solid black;
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 150px;
+  }
+  .mail{
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .mail-p{
+    padding-left: 30px;
+color: white;
+  }
+  
+  .v{
+    border-top: 2px solid black;
+    width: 100%;
+  }
+.copy{
+    text-align: center;
+    background: rgb(175, 175, 224);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.copy a{
+    color: black;
+}
+
+

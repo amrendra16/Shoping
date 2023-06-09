@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All in One</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="home.css">
+
+    <script>
+        var slid = ["image/new1.jpg", "image/new2.jpg", "image/new3.jpg", "image/new4.jpg", "image/new5.jpg", "image/new6.jpg"];
+        var i = 0;
+        function slider() {
+            document.getElementById("slide").src = slid[i];
+            // document.getElementById("d2").innerText=as[i];
+            document.getElementById("slide").style.backgroundImage = "url('" + slid[i] + "')";
+            document.getElementById("slide").style.backgroundRepeat = "no-repeat";
+            document.getElementById("slide").style.backgroundSize = "cover";
+
+            i++;
+            if (i == slid.length) {
+                i = 0;
+            }
+            window.setTimeout(slider, 1500);
+        }
+        window.onload = slider;
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- navbar strat here -->
+        <div class="row">
+
+            <div class="col-md-12 nav">
+                <ul>
+                    <li><input type="search"><button>Search</button></li>
+                    <li><a href="#"><button>Login</button></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Cart</a><i class="fa-solid fa-cart-arrow-down"></i></li>
+                    <li><a href="#">Help</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+        <!-- navbar end here -->
+
+
+        <div class="row" style="height: 90px;"></div>
+
+        <!-- first heding section start -->
+
+        <div class="row headsection">
+
+
+            <div class="kid1">
+                <a href="#">
+                    <div class="kid11">
+                        <div class="kid12">
+                            <img src="image/topimage.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="kid-t">Top Offers</div>
+                </a>
+            </div>
+
+            <div class="kid1">
+                <a href="#">
+                    <div class="kid11">
+                        <div class="kid12">
+                            <img src="image/iphone_11_PNG21.png" alt="">
+                        </div>
+                    </div>
+                    <div class="kid-t">Phones</div>
+                </a>
+            </div>
+
+            <div class="kid1">
+                <a href="#">
+                    <div class="kid11">
+                        <div class="kid12">
+                            <img src="image/mens1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="kid-t">MensWear</div>
+                </a>
+            </div>
+
+            <div class="kid1">
+                <a href="#">
+                    <div class="kid11">
+                        <div class="kid12">
+                            <img src="image/kids4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="kid-t">KidsWear</div>
+                </a>
+            </div>
+
+            <div class="kid1">
+                <a href="#">
+                    <div class="kid11">
+                        <div class="kid12">
+                            <img src="image/lap1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="kid-t">Laptops</div>
+                </a>
+            </div>
+
+            <div class="kid1">
+                <a href="#">
+                    <div class="kid11">
+                        <div class="kid12">
+                            <img src="image/shose1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="kid-t">Footwear</div>
+                </a>
+            </div>
+
+            <div class="kid1">
+                <a href="#">
+                    <div class="kid11">
+                        <div class="kid12">
+                            <img src="image/woman1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="kid-t">WomenWear</div>
+                </a>
+            </div>
+            <div class="kid1">
+                <a href="#">
+                    <div class="kid11">
+                        <div class="kid12">
+                            <img src="image/furniture1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="kid-t">Furniturs</div>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- first heading section end here -->
+
+        <!-- slider start here -->
+        <div class="row" style="height: 17px;"></div>
+        <div class="row" id="slide">
+            <center style="margin-top:10%;">
+                <p class="p1">Welcome to Online Shoping Wold.</p>
+                <p class="p1">You Can Buy Every Thing In This Web Site.</p>
+
+            </center>
+
+        </div>
+        <!-- slider end here -->
+
+        <!-- second main heading section start -->
+
+        <div class="row" style="height: 30px;"></div>
+        <div class="row best">
+            <div class="best-h">
+
+
+                <h2>Best Selling in the Day</h2>
+                <div class="row">
+
+                    <div class="col-md-2"></div>
+                    <div class="best-h">
+                        <p>Disscount upto 30%</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-8"></div>
+
+            <div class="best-btn">
+
+                <div class="row" style="height:30px;"></div>
+                <div class="row">
+                    <a href="#"><button>View All</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!--second main heading end here  -->
+
+        <!-- second inside product here -->
+
+        <div class="topselling">
+
+            <div class="topoffer">
+
+
+                <a href="#">
+                    <div class="topoffer1">
+                        <div class="topoffer2">
+                            <img src="image/applelp.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+
+
+
+                <div>
+
+                    <div class="topoffert">Apple Leptop</div>
+                    <div class="namep">
+                        <a title="This is Apple phone and this cost is 120000 but now the day you can buy only 70000"
+                            href="#"> Apple laptop max smokewhite... </a>
+
+
+                    </div>
+                </div>
+
+                <div style="display:flex;">
+                    <div class="amount">69,600</div>
+                    <div class="realamount">
+                        120,000
+                    </div>
+                    <div class="discount"><span>42% off</span></div>
+                </div>
+            </div>
+
+
+
+            <div class="topoffer">
+                <a href="#">
+                    <div class="topoffer1">
+                        <div class="topoffer2">
+                            <img src="image/oneplus.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <div class="topoffert">One Plus</div>
+                    <div class="namep">
+                        <a title="This is Apple phone and this cost is 120000 but now the day you can buy only 70000"
+                            href="#"> Wonder full phone. whitesmoke... </a>
+
+                    </div>
+                    <div>
+
+                        <div style="display:flex;">
+                            <div class="amount">45,950</div>
+                            <div class="realamount">
+                                70,000
+                            </div>
+                            <div class="discount"><span>35% off</span></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="topoffer">
+                <a href="#">
+                    <div class="topoffer1">
+                        <div class="topoffer2">
+                            <img src="image/manc2.jpg" alt="">
+                        </div>
+                    </div>
+
+                </a>
+                <div>
+                    <div class="topoffert">Blezers</div>
+                    <div class="namep">
+                        <a title="This is Apple phone and this cost is 120000 but now the day you can buy only 70000"
+                            href="#"> Special and more Attrective cloth.. </a>
+
+                    </div>
+                    <div>
+
+                        <div style="display:flex;">
+                            <div class="amount">2976</div>
+                            <div class="realamount">
+                                4800
+                            </div>
+                            <div class="discount"><span>38% off</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topoffer">
+                <a href="#">
+                    <div class="topoffer1">
+                        <div class="topoffer2">
+                            <img src="image/furniture1.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <div class="topoffert">Furniture</div>
+                    <div class="namep">
+                        <a title="This is Apple phone and this cost is 120000 but now the day you can buy only 70000"
+                            href="#">More beautiful Wood furnitu..... </a>
+
+                    </div>
+                    <div>
+
+                        <div style="display:flex;">
+                            <div class="amount">4830</div>
+                            <div class="realamount">
+                                7000
+                            </div>
+                            <div class="discount"><span>31% off</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- second inside product end -->
+
+
+        <!-- third main heading section start -->
+
+        <div class="row" style="height: 30px;"></div>
+        <div class="row best">
+            <div class="best-h">
+
+
+                <h2>Deals Of the Day</h2>
+                <div class="row">
+
+                    <div class="col-md-2"></div>
+                    <div class="best-h">
+                        <p>Disscount upto 10%</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-8"></div>
+
+            <div class="best-btn">
+
+                <div class="row" style="height:30px;"></div>
+                <div class="row">
+                    <a href="#"><button>View All</button></a>
+                </div>
+            </div>
+        </div>
+        <!--third main heading end here  -->
+
+        <!-- third inside product here -->
+
+        <div class="topselling">
+
+            <div class="topoffer">
+
+
+                <a href="#">
+                    <div class="topoffer1">
+                        <div class="topoffer2">
+                            <img src="image/shose1.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <div class="topoffert">Formal Shose</div>
+                    <div class="namep">
+                        <a title="This is Apple phone and this cost is 120000 but now the day you can buy only 70000"
+                            href="#"> Latest and new desing... </a>
+
+                    </div>
+
+
+                </div>
+
+                <div style="display:flex;">
+                    <div class="amount">960</div>
+                    <div class="realamount">
+                        1200
+                    </div>
+                    <div class="discount"><span>20% off</span></div>
+                </div>
+            </div>
+
+
+
+            <div class="topoffer">
+                <a href="#">
+                    <div class="topoffer1">
+                        <div class="topoffer2">
+                            <img src="image/steel-bartan2.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <div class="topoffert">Steel Bartan</div>
+                    <div class="namep">
+                        <a title="This is Apple phone and this cost is 120000 but now the day you can buy only 70000"
+                            href="#"> new steel bartan..... </a>
+
+                    </div>
+                    <div>
+
+                        <div style="display:flex;">
+                            <div class="amount">600</div>
+                            <div class="realamount">
+                                700
+                            </div>
+                            <div class="discount"><span>12% off</span></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="topoffer">
+                <a href="#">
+                    <div class="topoffer1">
+                        <div class="topoffer2">
+                            <img src="image/women1.jpg" alt="">
+                        </div>
+                    </div>
+
+                </a>
+                <div>
+                    <div class="topoffert">Red Top</div>
+                    <div class="namep">
+                        <a title="This is Apple phone and this cost is 120000 but now the day you can buy only 70000"
+                            href="#"> Special and beautiful cloth.. </a>
+
+                    </div>
+                    <div>
+
+                        <div style="display:flex;">
+                            <div class="amount">400</div>
+                            <div class="realamount">
+                                500
+                            </div>
+                            <div class="discount"><span>20% off</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="topoffer">
+                <a href="#">
+                    <div class="topoffer1">
+                        <div class="topoffer2">
+                            <img src="image/realmi.jpg" alt="">
+                        </div>
+                    </div>
+                </a>
+                <div>
+                    <div class="topoffert">Realmi</div>
+                    <div class="namep">
+                        <a title="This is Apple phone and this cost is 120000 but now the day you can buy only 70000"
+                            href="#">New product black-blue color... </a>
+
+                    </div>
+                    <div>
+
+                        <div style="display:flex;">
+                            <div class="amount">17000</div>
+                            <div class="realamount">
+                                14450
+                            </div>
+                            <div class="discount"><span>15% off</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer start here -->
+        <footer>
+            <div class="footer-s">
+
+
+
+                <ul class="f">
+                    <div class="ft">ABOUT</div>
+                    <li><a href="#">Conatct Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Wholesale</a></li>
+
+                </ul>
+
+
+
+                <ul class="f">
+                    <div class="ft">HELP</div>
+                    <li><a href="#">Payment</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Concellation & Return</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Report Infringement</a></li>
+
+                </ul>
+
+                <ul class="f">
+                    <div class="ft">POLICY</div>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+
+                </ul>
+
+                <ul class="f">
+                    <div class="ft">SOCIAL</div>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+
+
+                </ul>
+                <div class="vl"></div>
+
+                <div>
+
+                    <div class="mail">Mail:</div>
+                    <a href="#">
+                    <div class="mail-p">All in One Online services internet private limited,<br>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing <br> Architecto, porro rerum veritatis numquam earum <br> laboriosam ab exercitationem labore ullam repellendus <br> unde deserunt molestiae quasi cumque</div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="v"></div>
+
+            <div class="row copy"><a href="#"> @copyright.ChaudharyAmrendra</a></div>
+          
+        </footer>
+    </div>
+</body>
+
+
+</html>
